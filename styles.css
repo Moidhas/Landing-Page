@@ -8,7 +8,8 @@ body {
 
 a,
 .subtext,
-.footer {
+.footer,
+.image {
     text-decoration: none;
     font-size: 18px; 
     color: #b8b8b8;
