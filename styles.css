@@ -15,10 +15,9 @@ ul {
     display: flex;
     justify-content: flex-end;
     gap: 20px; 
-    border: red solid 1px;
 }
 
-.right li, .subtext {
+a:visited, .subtext {
     font-size: 18px; 
     color: #E5E7EB;
 }
@@ -34,11 +33,6 @@ h1 {
 .left h1 {
     font-size: 24px; 
 }
-
-.left {
-    border: red solid 1px; 
-}
-
 
 .head-next {
     display: flex;
@@ -66,7 +60,6 @@ button {
 
 .subtext.image {
     background-color: #848484;
-    border: red solid 1px;
     display: flex;
     justify-content: center;
     align-items: center; 
