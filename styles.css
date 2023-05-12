@@ -7,7 +7,7 @@ body {
 
 a:visited, .subtext {
     font-size: 18px; 
-    color: #bbbbbb;
+    color: #d4d4d4;
 }
 
 ul {
@@ -161,4 +161,44 @@ a {
     font-size: 25px;
     font-weight: 600;
 }
+/*--------------*/
+
+/*   call-to-action-block    */
+.call-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}
+
+.box {
+    border-radius: 20px; 
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    align-items: center;
+    padding: 20px 100px;
+}
+
+.call-block button {
+    border: white solid 2px;
+    
+} 
+
+h3 {
+   margin-bottom: 0px; 
+   color: #F9FAF8;
+   font-size: 20px;
+}
+
+.box p {
+    margin-top: 0px; 
+}
+
+/*--------------*/
+
+
+
+/*   footer    */
 
