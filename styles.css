@@ -5,6 +5,15 @@ body {
     margin: 0px;  
 }
 
+a:visited, .subtext {
+    font-size: 18px; 
+    color: #bbbbbb;
+}
+
+ul {
+    list-style: none;
+}
+
 /*--------------*/
 
 
@@ -66,21 +75,54 @@ button {
     margin-top: 0px; 
 }
 
-
-ul {
-    list-style: none;
+.right ul {
     display: flex;
     justify-content: flex-end;
     gap: 20px; 
 }
 
-a:visited, .subtext {
-    font-size: 18px; 
-    color: #E5E7EB;
-}
-
 a {
     text-decoration: none;
+}
+
+/*--------------*/
+
+
+/*   middle-side    */
+
+.middle h2 {
+    text-align: center;
+    margin: 50px; 
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+}
+
+.middle ul {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 60px; 
+}
+
+.middle li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px; 
+}
+
+.illus {
+    border: #3882f6 solid 3px; 
+    width: 170px; 
+    height: 170px;
+    border-radius: 15px; 
+}
+
+.middle .subtext {
+    text-align: center;
+    width: 150px; 
+    margin: 0px; 
 }
 
 /*--------------*/
