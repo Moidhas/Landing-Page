@@ -90,9 +90,17 @@ a {
 
 /*   middle-side    */
 
+.middle {
+    height: 500px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+}
+
 .middle h2 {
     text-align: center;
-    margin: 50px; 
+    margin-top: 50px; 
+    margin-bottom: 30px;
     font-size: 36px;
     font-weight: extra-bold;
     color: #1F2937;
@@ -126,3 +134,31 @@ a {
 }
 
 /*--------------*/
+
+
+/*   quote-block    */
+.quote-block {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;  
+}
+
+
+.quote {
+    font-size: 36px;
+    font-style: light-italic;
+    color: #1F2937;
+    width: 750px;
+    margin-bottom: 0px;
+    align-self: center;
+}
+
+.signature {  
+    width: 1130px;
+    text-align: end;
+    font-size: 25px;
+    font-weight: 600;
+}
+
