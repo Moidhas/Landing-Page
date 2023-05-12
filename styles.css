@@ -1,36 +1,27 @@
+/* General */
+
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0px;  
 }
 
+/*--------------*/
+
+
+/* Top of Website */
+
 .hero {
-   background-color: #1F2937;
-   display: flex;
-   justify-content: space-evenly;
-   padding: 0 100px;
-}
-
-
-ul {
-    list-style: none;
+    background-color: #1F2937;
     display: flex;
-    justify-content: flex-end;
-    gap: 20px; 
-}
-
-a:visited, .subtext {
-    font-size: 18px; 
-    color: #E5E7EB;
-}
-
-a {
-    text-decoration: none;
-}
-
+    justify-content: space-evenly;
+    padding: 0 100px; 
+ }
+ 
 h1 {
     color: #F9FAF8;
 }
 
+/*   left-side    */
 .left h1 {
     font-size: 24px; 
 }
@@ -51,6 +42,8 @@ h1 {
     font-weight: extra-bold;
 }
 
+
+/*   right side     */
 button {
     background-color: #3882f6;
     border-radius: 5px;
@@ -72,3 +65,22 @@ button {
 .head-body .subtext {
     margin-top: 0px; 
 }
+
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px; 
+}
+
+a:visited, .subtext {
+    font-size: 18px; 
+    color: #E5E7EB;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*--------------*/
