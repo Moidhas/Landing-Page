@@ -1,58 +1,80 @@
-* {
-    border: 2px solid red;
-}
-
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;  
 }
 
-a,
-.subtext,
-.footer,
-.image {
-    text-decoration: none;
-    font-size: 18px; 
-    color: #b8b8b8;
+.hero {
+   background-color: #1F2937;
+   display: flex;
+   justify-content: space-evenly;
 }
+
 
 ul {
     list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px; 
+    border: red solid 1px;
 }
 
-.footer, 
-.header, 
-.intro {
-    background-color: #1F2937;
+.right li, .subtext {
+    font-size: 18px; 
+    color: #E5E7EB;
 }
 
-.intro h2 {
+a {
+    text-decoration: none;
+}
+
+h1 {
+    color: #F9FAF8;
+}
+
+.left h1 {
+    font-size: 24px; 
+}
+
+.left {
+    border: red solid 1px; 
+}
+
+
+.head-next {
+    display: flex;
+    align-items: center;
+    margin: 100px 0; 
+}
+
+.head-body {
+    width: 420px; 
+}
+
+.head-body h1 {
+    margin-bottom: 0;
     font-size: 48px;
     font-weight: extra-bold;
 }
 
-h1 {
-    font-size: 24px; 
-}
-
-.intro h2, h1, 
-.container, button {
-    color: #F9FAF8;
-}
-
-.container,
 button {
-    background-color: #3882F6;
+    background-color: #3882f6;
+    border-radius: 5px;
+    border: 0px;
+    width: 125px;
+    padding: 8px;  
 }
 
-h2 {
-    font-size: 36px;
-    font-weight: extra-bold;
-    color: #1F2937;
+.subtext.image {
+    background-color: #848484;
+    border: red solid 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 120px 0;
+    height: 250px;
+    width: 550px; 
 }
 
-p.quotation {
-    background-color: #E5E7EB;
-    font-size: 36px;
-    font-family: light-italic; 
-    color: #1F2937;
+.head-body .subtext {
+    margin-top: 0px; 
 }
